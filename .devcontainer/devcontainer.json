@@ -1,6 +1,14 @@
 {
-  "name": "Ubuntu",
-  "build": { "dockerfile": "Dockerfile" }
+  "build": { "dockerfile": "Dockerfile" },
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["DaltonMenezes.aura-theme"]
+    }
+  },
+
+  "forwardPorts": [3000]
 }
+
 
 

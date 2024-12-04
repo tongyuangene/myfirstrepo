@@ -1,5 +1,6 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "Ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}",
   "features": {
   }
 }

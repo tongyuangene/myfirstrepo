@@ -1,6 +1,4 @@
 {
   "name": "Ubuntu",
-  "image": "mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}",
-  "features": {
-  }
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04}",
 }
